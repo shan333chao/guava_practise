@@ -33,6 +33,7 @@ public class StringsTest {
     @Test
     public  void testChatsets(){
         Charset chatset=Charset.forName("UTF-8");
+        //Charsets  默认常量类型的Charset编码
         assertThat(Charsets.UTF_8,equalTo(chatset));
     }
     @Test
@@ -52,6 +53,7 @@ public class StringsTest {
         ///保留大写字母和数字retainFrom
         String s2 = CharMatcher.javaDigit().or(CharMatcher.javaUpperCase()).retainFrom("Baramongan 123  Learning 456 Guava");
         assertThat(s2,equalTo("B123L456G"));
+
     }
 
 
