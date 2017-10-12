@@ -40,3 +40,6 @@ hs_err_pid*
 ### The project
 /.idea
 /out
+/my_servant/build/
+/out/
+/my_service/build/

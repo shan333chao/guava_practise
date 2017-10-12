@@ -1,2 +1,4 @@
 rootProject.name = 'guava_practise'
+include 'my_service'
+include 'my_servant'
 
